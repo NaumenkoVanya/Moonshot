@@ -7,18 +7,40 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CAEB85B92B876C7300E4B2D8 /* astronauts.json in Resources */ = {isa = PBXBuildFile; fileRef = CAEB85B72B876C7200E4B2D8 /* astronauts.json */; };
+		CAEB85BA2B876C7300E4B2D8 /* missions.json in Resources */ = {isa = PBXBuildFile; fileRef = CAEB85B82B876C7300E4B2D8 /* missions.json */; };
 		CAF12EFD2B87449A00E347B6 /* MoonshotApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAF12EFC2B87449A00E347B6 /* MoonshotApp.swift */; };
 		CAF12EFF2B87449A00E347B6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAF12EFE2B87449A00E347B6 /* ContentView.swift */; };
 		CAF12F012B87449B00E347B6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CAF12F002B87449B00E347B6 /* Assets.xcassets */; };
 		CAF12F042B87449B00E347B6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CAF12F032B87449B00E347B6 /* Preview Assets.xcassets */; };
+		CAF12F0B2B87456800E347B6 /* ContenttViewResizingImages.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAF12F0A2B87456800E347B6 /* ContenttViewResizingImages.swift */; };
+		CAF12F0D2B874C3F00E347B6 /* ScrollViewLetsUsWorkWithScrollingData.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAF12F0C2B874C3E00E347B6 /* ScrollViewLetsUsWorkWithScrollingData.swift */; };
+		CAF12F0F2B87519300E347B6 /* PushingNewViewsOntoTheStackUsingNavigationLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAF12F0E2B87519300E347B6 /* PushingNewViewsOntoTheStackUsingNavigationLink.swift */; };
+		CAF12F112B87563C00E347B6 /* WorkingWithHierarchicalCodableData.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAF12F102B87563C00E347B6 /* WorkingWithHierarchicalCodableData.swift */; };
+		CAF12F132B8759B300E347B6 /* HowToLayOutViewsInaScrollingGrid.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAF12F122B8759B300E347B6 /* HowToLayOutViewsInaScrollingGrid.swift */; };
+		CAF12F152B875D2600E347B6 /* LoadingaSpecificKindOfCodableData.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAF12F142B875D2600E347B6 /* LoadingaSpecificKindOfCodableData.swift */; };
+		CAF12F1F2B875F4500E347B6 /* Astronaut.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAF12F1E2B875F4500E347B6 /* Astronaut.swift */; };
+		CAF12F212B87605000E347B6 /* Bundle-Decodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAF12F202B87605000E347B6 /* Bundle-Decodable.swift */; };
+		CAF12F232B87643B00E347B6 /* Mission.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAF12F222B87643B00E347B6 /* Mission.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CAEB85B72B876C7200E4B2D8 /* astronauts.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = astronauts.json; sourceTree = "<group>"; };
+		CAEB85B82B876C7300E4B2D8 /* missions.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = missions.json; sourceTree = "<group>"; };
 		CAF12EF92B87449A00E347B6 /* Moonshot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Moonshot.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CAF12EFC2B87449A00E347B6 /* MoonshotApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoonshotApp.swift; sourceTree = "<group>"; };
 		CAF12EFE2B87449A00E347B6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		CAF12F002B87449B00E347B6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CAF12F032B87449B00E347B6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CAF12F0A2B87456800E347B6 /* ContenttViewResizingImages.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContenttViewResizingImages.swift; sourceTree = "<group>"; };
+		CAF12F0C2B874C3E00E347B6 /* ScrollViewLetsUsWorkWithScrollingData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewLetsUsWorkWithScrollingData.swift; sourceTree = "<group>"; };
+		CAF12F0E2B87519300E347B6 /* PushingNewViewsOntoTheStackUsingNavigationLink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PushingNewViewsOntoTheStackUsingNavigationLink.swift; sourceTree = "<group>"; };
+		CAF12F102B87563C00E347B6 /* WorkingWithHierarchicalCodableData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkingWithHierarchicalCodableData.swift; sourceTree = "<group>"; };
+		CAF12F122B8759B300E347B6 /* HowToLayOutViewsInaScrollingGrid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HowToLayOutViewsInaScrollingGrid.swift; sourceTree = "<group>"; };
+		CAF12F142B875D2600E347B6 /* LoadingaSpecificKindOfCodableData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingaSpecificKindOfCodableData.swift; sourceTree = "<group>"; };
+		CAF12F1E2B875F4500E347B6 /* Astronaut.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Astronaut.swift; sourceTree = "<group>"; };
+		CAF12F202B87605000E347B6 /* Bundle-Decodable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bundle-Decodable.swift"; sourceTree = "<group>"; };
+		CAF12F222B87643B00E347B6 /* Mission.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mission.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,8 +75,15 @@
 			children = (
 				CAF12EFC2B87449A00E347B6 /* MoonshotApp.swift */,
 				CAF12EFE2B87449A00E347B6 /* ContentView.swift */,
+				CAF12F142B875D2600E347B6 /* LoadingaSpecificKindOfCodableData.swift */,
+				CAF12F1E2B875F4500E347B6 /* Astronaut.swift */,
+				CAF12F202B87605000E347B6 /* Bundle-Decodable.swift */,
+				CAF12F222B87643B00E347B6 /* Mission.swift */,
+				CAEB85B82B876C7300E4B2D8 /* missions.json */,
+				CAEB85B72B876C7200E4B2D8 /* astronauts.json */,
 				CAF12F002B87449B00E347B6 /* Assets.xcassets */,
 				CAF12F022B87449B00E347B6 /* Preview Content */,
+				CAF12F162B875D2F00E347B6 /* MomeWorkFoDays */,
 			);
 			path = Moonshot;
 			sourceTree = "<group>";
@@ -65,6 +94,26 @@
 				CAF12F032B87449B00E347B6 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		CAF12F162B875D2F00E347B6 /* MomeWorkFoDays */ = {
+			isa = PBXGroup;
+			children = (
+				CAF12F0C2B874C3E00E347B6 /* ScrollViewLetsUsWorkWithScrollingData.swift */,
+				CAF12F0E2B87519300E347B6 /* PushingNewViewsOntoTheStackUsingNavigationLink.swift */,
+				CAF12F102B87563C00E347B6 /* WorkingWithHierarchicalCodableData.swift */,
+				CAF12F122B8759B300E347B6 /* HowToLayOutViewsInaScrollingGrid.swift */,
+				CAF12F0A2B87456800E347B6 /* ContenttViewResizingImages.swift */,
+				CAF12F1B2B875E8900E347B6 /* FortiethDayHomeWork */,
+			);
+			path = MomeWorkFoDays;
+			sourceTree = "<group>";
+		};
+		CAF12F1B2B875E8900E347B6 /* FortiethDayHomeWork */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = FortiethDayHomeWork;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,7 +174,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CAEB85B92B876C7300E4B2D8 /* astronauts.json in Resources */,
 				CAF12F042B87449B00E347B6 /* Preview Assets.xcassets in Resources */,
+				CAEB85BA2B876C7300E4B2D8 /* missions.json in Resources */,
 				CAF12F012B87449B00E347B6 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -137,8 +188,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CAF12F232B87643B00E347B6 /* Mission.swift in Sources */,
+				CAF12F1F2B875F4500E347B6 /* Astronaut.swift in Sources */,
 				CAF12EFF2B87449A00E347B6 /* ContentView.swift in Sources */,
 				CAF12EFD2B87449A00E347B6 /* MoonshotApp.swift in Sources */,
+				CAF12F0D2B874C3F00E347B6 /* ScrollViewLetsUsWorkWithScrollingData.swift in Sources */,
+				CAF12F0B2B87456800E347B6 /* ContenttViewResizingImages.swift in Sources */,
+				CAF12F0F2B87519300E347B6 /* PushingNewViewsOntoTheStackUsingNavigationLink.swift in Sources */,
+				CAF12F132B8759B300E347B6 /* HowToLayOutViewsInaScrollingGrid.swift in Sources */,
+				CAF12F212B87605000E347B6 /* Bundle-Decodable.swift in Sources */,
+				CAF12F152B875D2600E347B6 /* LoadingaSpecificKindOfCodableData.swift in Sources */,
+				CAF12F112B87563C00E347B6 /* WorkingWithHierarchicalCodableData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
