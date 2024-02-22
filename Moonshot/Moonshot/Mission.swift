@@ -2,7 +2,7 @@
 //  Mission.swift
 //  Moonshot
 //
-//  Created by Ваня Науменко on 22.02.24.
+//  Created by Paul Hudson on 30/10/2023.
 //
 
 import Foundation
@@ -12,9 +12,10 @@ struct Mission: Codable, Identifiable {
         let name: String
         let role: String
     }
-    
+
     let id: Int
-    let launchDate: String?
+    let launchDate: Date?
     let crew: [CrewRole]
-    let dicscription: String
+    let description: String
+
 }

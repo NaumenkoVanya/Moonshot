@@ -2,7 +2,7 @@
 //  Bundle-Decodable.swift
 //  Moonshot
 //
-//  Created by Ваня Науменко on 22.02.24.
+//  Created by Paul Hudson on 30/10/2023.
 //
 
 import Foundation
@@ -29,4 +29,3 @@ extension Bundle {
         return loaded
     }
 }
-
